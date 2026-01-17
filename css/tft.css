@@ -1,0 +1,72 @@
+.parties-game-navs-break {
+    visibility: hidden !important;
+}
+:host-context(lol-uikit-navigation-bar[type=nav-bar]),
+:host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) {
+    display: none !important;
+}
+.deep-links-promo-element .launch-lor-button-container {
+    display: none !important;
+}
+.right-nav-menu .main-navigation-menu-item.text-and-icon:last-of-type,
+.right-nav-menu .main-navigation-menu-item:last-of-type {
+    display: none !important;
+}
+.right-nav-vertical-rule {
+    display: none !important;
+}
+.deep-links-promo {
+    display: none !important;
+}
+.style-profile-demotion-shield-warning {
+    display: none !important;
+}
+.lol-loading-screen-lol-icon {
+    background-image: url('../assets/set16.png') !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 2px !important;
+}
+div[data-game-mode]:not([data-game-mode="TFT"]) {
+    display: none !important;
+}
+.vertical-separator {
+    display: none !important;
+}
+lol-uikit-navigation-item[data-category]:not([data-category="kPvP"]) {
+    display: none !important;
+}
+.right-nav-menu > :not(.wallet-and-badges) {
+    display: none !important;
+}
+.style-profile-emblem-slot:not(:has(.style-profile-ranked-component)) {
+    display: none !important;
+}
+.style-profile-emblems-container {
+    position: fixed !important;
+    left: 50% !important;
+    top: 71% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 9999 !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.style-profile-emblem-slot,
+.style-profile-emblem-wrapper,
+.style-profile-emblem-header {
+    background: transparent !important;
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.style-profile-emblem-subheader-ranked,
+.style-profile-emblem-header-title {
+    text-align: center !important;
+    width: 100% !important;
+}
